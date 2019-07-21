@@ -1,0 +1,104 @@
+/* Common styles */
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+nav{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*----------------*/
+
+/* Common form styles */
+
+.form__block{
+	padding: 10px;
+	width: 30vh;
+	text-align: left;
+	margin: auto auto;
+}
+
+.form__common{
+	text-align: center;
+}
+
+.form__inputForm{
+	border-radius: 10px;
+	padding: 3px;
+	max-width: 30vh;
+	width: 80%;
+	transition: width .3s;
+}
+
+.form__inputForm:hover{
+	width: 100%;
+}
+
+.form__send{
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: white;
+	border-color: black;
+	max-width: 20vh;
+	width: 50%;
+	transition: width .3s;
+	transition: opacity .3s;
+	opacity: 1;
+}
+
+.form__send:hover{
+	width: 100%;
+}
+
+.form__send:disabled{
+	width: 50%;
+	opacity: 0.5;
+}
+
+.form__message{
+	color: red;
+}
+
+.form__teaxtareaForm{
+	border-radius: 10px;
+}
+
+.button__common {
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 5px;
+	
+}
+
+.button__common:hover{
+	text-decoration: underline;
+}
+
+.errorForm__message{
+	color: red;
+}
+
+.errorForm__block{
+	
+}
+
+.successForm_common{
+	color: green;
+}
+
+.common__button{
+	
+}
+
+.page__block{
+	margin-top: 10vh;
+	display: flex;
+	justify-content: space-around;
+	height: 80vh;
+}

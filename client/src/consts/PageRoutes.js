@@ -1,0 +1,9 @@
+export const MAIN_P = '/'
+export const LOG_P = '/login';
+export const REG_P = '/registration';
+export const PROFILE_P = '/profile';
+export const CHAT_P = '/chat';
+export const THREAD_VAR = ':threadid';
+export const THREAD_CONST = '/thread/';
+export const THREAD_P = THREAD_CONST + THREAD_VAR;
+export const NEWS_P = '/news';
